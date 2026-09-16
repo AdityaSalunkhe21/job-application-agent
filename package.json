@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "inspect:workday": "node scripts/inspect-workday.mjs"
+    "inspect:workday": "node scripts/inspect-workday.mjs",
+    "inspect:workday:visible": "HEADLESS=false node scripts/inspect-workday.mjs"
+    ,"inspect:workday:connected": "node scripts/inspect-connected-workday.mjs"
   },
   "dependencies": {
     "@prisma/client": "^6.19.0",
